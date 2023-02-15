@@ -1,0 +1,11 @@
+.header{
+    color: aquamarine;
+    display:flex;
+    justify-content: center;
+    border-bottom: .5px solid black;
+}
+
+.header_title, .header_subtitle{
+
+
+}
