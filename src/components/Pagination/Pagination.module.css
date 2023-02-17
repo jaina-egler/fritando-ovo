@@ -1,0 +1,13 @@
+.paginator{
+    height: 32px;
+    width: 32px;
+    background-color: #eb5757;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand';
+    color: #F2F2F2;
+}
