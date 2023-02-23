@@ -6,6 +6,7 @@ import Card from "../components/Card"
 import Header from "../components/Header"
 import CardList from "../components/CardList"
 import Pagination from "../components/Pagination"
+import Footer from "../components/Footer"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +25,12 @@ export default function Home() {
   return (
     <>
       <Header></Header>
+      <div className={styles.Content}>
       <CardList receitas={receitas}></CardList>
       <Pagination></Pagination>
+      </div>
+      <Footer></Footer>
+      
     </>
   )
 }

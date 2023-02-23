@@ -4,10 +4,11 @@
     background-color: #eb5757;
     border-radius: 5px;
     text-align: center;
-    margin-left: 305px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Quicksand';
     color: #F2F2F2;
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
