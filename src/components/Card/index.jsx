@@ -1,11 +1,14 @@
 import styles from "./Card.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
-export default function Card({titulo,tempoPreparo,porcoes,url,text_alt}){
+export default function Card({id,titulo,tempoPreparo,porcoes,url}){
 
 return(
     <div className={styles.card}>
+        <Link href={`/visualizar/${id}`}>  
         <div className={styles.card_img_title}>
-        <img  className={styles.card_img} src={url} alt={text_alt}/>
+        <Image src={url} width="387" height="272"/>
         <div className={styles.card_title}>
         <h2>{titulo}</h2>
         </div>
@@ -21,6 +24,7 @@ return(
         </div>
         
         </div>
+        </Link>
     </div>
 )
 }
